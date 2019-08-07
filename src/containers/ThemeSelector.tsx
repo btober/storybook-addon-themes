@@ -40,11 +40,11 @@ const getDisplayableState = memoize(10)(
     let availableThemeSelectorItems: ThemeSelectorItem[] = [];
     let selectedTheme: Theme;
 
-    if (selectedThemeName !== 'none') {
-      availableThemeSelectorItems.push(
-        createThemeSelectorItem('none', 'Clear theme', 'transparent', null, change, false)
-      );
-    }
+//    if (selectedThemeName !== 'none') {
+//      availableThemeSelectorItems.push(
+//        createThemeSelectorItem('none', 'Clear theme', 'transparent', null, change, false)
+//      );
+//    }
 
     if (list.length) {
       availableThemeSelectorItems = [
